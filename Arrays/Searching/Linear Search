@@ -1,0 +1,23 @@
+Searching means finding whether an element exists in the array.
+
+Linear Search
+
+Find the index of a target element in an array by checking each element one by one.
+
+Example:
+
+Input:
+arr = [4, 7, 1, 9]
+target = 7
+
+Output:
+1
+Because 7 is at index 1.
+
+arr = [4,7,1,9]
+target = 7
+
+for i in range(len(arr)):
+    if arr[i] == target:
+        print(i)
+        break
