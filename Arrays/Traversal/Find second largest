@@ -1,0 +1,14 @@
+arr = [4, 7, 1, 9, 3]
+
+largest = second = float('-inf')
+
+for num in arr:
+    
+    if num > largest:
+        second = largest
+        largest = num
+    
+    elif num > second and num != largest:
+        second = num
+
+print(second)
