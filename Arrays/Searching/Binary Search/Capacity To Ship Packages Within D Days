@@ -1,4 +1,4 @@
-![Capacity to Ship Packages](capacity_ship_visual.png)
+![Capacity to Ship Packages](image.png)
 class Solution:
     def shipWithinDays(self, weights: List[int], days: int) -> int:
 
