@@ -10,7 +10,7 @@
 Example:
 Push → 1, 2, 3  
 Pop → 3
-
+ 
 ---
 
 ## ⚙️ Implementation (Python)
