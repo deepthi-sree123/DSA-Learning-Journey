@@ -3,7 +3,7 @@
 ## Problem
 Check if the given string of parentheses is valid.
 
-```
+``` 
 Input:  "()[]{}"
 Output: True
 
