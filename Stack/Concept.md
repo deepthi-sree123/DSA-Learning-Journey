@@ -1,7 +1,7 @@
 # 🧠 Stack (Python) — Complete Notes
 
 ---
-
+ 
 ## 📌 Definition
 
 - Stack is a **linear data structure**
