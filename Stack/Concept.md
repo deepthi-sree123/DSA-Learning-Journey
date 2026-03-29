@@ -5,7 +5,7 @@
 ## 📌 Definition
 
 - Stack is a **linear data structure**
-- Follows **LIFO (Last In First Out)**
+- Follows **LIFO* (Last In First Out)**
 
 Example:
 Push → 1, 2, 3  
