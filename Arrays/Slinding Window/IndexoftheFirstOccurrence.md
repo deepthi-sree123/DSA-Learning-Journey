@@ -38,3 +38,64 @@ class Solution:
                 return i
 
         return -1
+# 🧪 Dry Run: Find the Index of the First Occurrence in a String
+
+---
+
+## 🔍 Example 1
+
+haystack = "sadbutsad"  
+needle = "sad"
+
+### Step-by-step:
+
+- i = 0  
+  substring = haystack[0:3] = "sad" ✅ match  
+  👉 return 0
+
+---
+
+## 🔍 Example 2
+
+haystack = "leetcode"  
+needle = "leeto"
+
+### Step-by-step:
+
+- i = 0  
+  substring = "leetc" ❌  
+- i = 1  
+  substring = "eetco" ❌  
+- i = 2  
+  substring = "etcod" ❌  
+- i = 3  
+  substring = "tcode" ❌  
+
+👉 No match found → return -1
+
+---
+
+## 🔍 Example 3
+
+haystack = "hello"  
+needle = "ll"
+
+### Step-by-step:
+
+- i = 0  
+  substring = "he" ❌  
+- i = 1  
+  substring = "el" ❌  
+- i = 2  
+  substring = "ll" ✅ match  
+  👉 return 2
+
+---
+
+## 📝 Key Understanding
+
+* We check every possible window of size `len(needle)`
+* As soon as we find match → stop
+* If loop ends → no match
+
+---
