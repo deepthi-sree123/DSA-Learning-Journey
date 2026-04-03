@@ -17,10 +17,3 @@ The goal is to build a **strong foundation in DSA** for:
 - Competitive programming  
 - Real-world problem solving  
 
----
-
-
-
----
-
-## 📂 Folder Structure
