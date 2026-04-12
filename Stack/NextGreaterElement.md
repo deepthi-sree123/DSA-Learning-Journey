@@ -1,7 +1,7 @@
 # 📌 Problem: Next Greater Element (All Variants)
 
 * LeetCode #: 496 (and related variants)
-* Approach: Stack (Monotonic Stack)
+* Approach: Stack (Monotonic Stack) 
 
 ---
 
