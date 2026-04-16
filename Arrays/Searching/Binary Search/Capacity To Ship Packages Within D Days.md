@@ -3,7 +3,7 @@
 ![Capacity to Ship Packages](image.png)
  
 ```python
-class Solution:
+class Solution: 
     def shipWithinDays(self, weights: List[int], days: int) -> int:
 
         left = max(weights)
